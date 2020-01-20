@@ -7,4 +7,3 @@ commands:
     togglegravity:
         description: Toggles the gravity
         permission: gravityblocks.togglegravity
-        usage: Syntax error! Simply type /&lt;command&gt; to toggle gravity.
