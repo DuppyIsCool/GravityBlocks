@@ -21,7 +21,7 @@ public class Events implements Listener {
 			//Get sphere of locations with radius of 10 and not hollow
 			for(Location l : Sphere.generateSphere(e.getPlayer().getLocation(), 10, false)) {
 				//Do not spawn falling blocks if the block falling is water,lava,or air
-				if(!l.getBlock().getType().equals(Material.AIR) && !l.getBlock().getType().equals(Material.WATER)&& !l.getBlock().getType().equals(Material.LAVA)) {
+				if(!l.getBlock().getType().equals(Material.AIR) && !l.getBlock().getType().equals(Material.WATER)&& !l.getBlock().getType().equals(Material.LAVA)&& !l.getBlock().getType().equals(Material.BEDROCK)) {
 					
 					//Delete the block and spawn a falling block of the original material
 					Material mat = l.getBlock().getType();
