@@ -1,0 +1,10 @@
+name: GravityBlocks
+main: me.Duppy.GravityBlocks.Main
+author: DuppyIsCool
+version: 1.0
+description: Gravity Blocks plugin for some person on Reddit
+commands:
+    togglegravity:
+        description: Toggles the gravity
+        permission: gravityblocks.togglegravity
+        usage: Syntax error! Simply type /&lt;command&gt; to toggle gravity.
